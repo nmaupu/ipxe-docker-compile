@@ -1,0 +1,4 @@
+#!ipxe
+
+dhcp
+chain tftp://192.168.12.1/autoexec.ipxe || shell
